@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('trends/trends');
 });
 
+Route::get('/hotspot', 'HotspotController@index');
+Route::post('/hotspot', 'HotspotController@save');
+Route::get('/get/hotspot', 'HotspotController@getJson');
+
 Route::get('test', 'TrendsController@index');
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
