@@ -1,0 +1,12 @@
+{
+  "name": "root/chat-app",
+  "descripiton": "package for chat app using node js",
+  "authors": [
+    {
+      "name": "pruthvi-k",
+      "email": "pruthvi.kajavadra@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}

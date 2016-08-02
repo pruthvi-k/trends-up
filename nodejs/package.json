@@ -1,0 +1,17 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app with laravel",
+  "main": "server.js",
+  "dependencies": {
+    "redis": "~0.12.1",
+    "express": "~4.10.2",
+    "socket.io": "~1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node start server.js"
+  },
+  "author": "pruthvi paghdal",
+  "license": "ISC"
+}
