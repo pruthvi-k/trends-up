@@ -13,7 +13,7 @@ class ChatServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind('chat', function ($app) {
+        $this->app->bind('Chat', function ($app) {
             return new Chat;
         });
     }
@@ -33,7 +33,7 @@ class ChatServiceProvider extends ServiceProvider
             require __DIR__ . '/Http/routes.php';
         }
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'chatApp');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'chat');
 
         // publishing the migrations
 //        $this->publishes([
