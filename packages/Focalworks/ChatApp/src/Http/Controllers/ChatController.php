@@ -29,4 +29,9 @@ class ChatController extends Controller
         event(new ChatMessage($data));
         return response()->json([]);
     }
+
+    public function window(Request $request)
+    {
+        return view('chat::modal');
+    }
 }
